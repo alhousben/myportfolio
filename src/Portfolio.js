@@ -258,7 +258,7 @@ const Portfolio = () => {
           {/* <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed">
             Développeur Full-Stack passionné par la création d'expériences web modernes et performantes
           </p> */}
-          <TextSwitcher />
+          <TextSwitcher /> <br></br>
 
           
           <div className="flex flex-wrap justify-center gap-4 mb-12">

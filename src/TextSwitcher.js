@@ -41,8 +41,11 @@ export default function TextSwitcher() {
   }, [charIndex, deleting, index]);
 
   return (
-   <div className="text-xl sm:text-2xl font-semibold text-center text-white h-24">
-    <span className="whitespace-nowrap">{text}<span className="animate-pulse">|</span></span>
+    <div className="text-xl sm:text-2xl font-semibold text-center text-white h-auto sm:h-24 px-2">
+    <span className="whitespace-normal sm:whitespace-nowrap break-words">
+      {text}
+      <span className="animate-pulse">|</span>
+    </span>
   </div>
   );
 }
